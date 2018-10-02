@@ -1,0 +1,58 @@
+b.1)
+~~ Start of execution ~~
+Which Algorithm? (enter 1 for circular, 2 for firstAvailable):  1
+Number of full runs: 100
+Use the 12 preset jobs (y or n): n
+All Jobs Complete!
+
+Min: 5847ms
+Max: 8713ms
+Avg: 7063ms
+Std_dev: 589.97ms
+Ran 100 full runs, each with 100 jobs successfully
+~~ End of execution ~~
+
+b.2)
+~~ Start of execution ~~
+Which Algorithm? (enter 1 for circular, 2 for firstAvailable):  1
+Number of full runs: 100
+Use the 12 preset jobs (y or n): y
+All Jobs Complete!
+
+Min: 407ms
+Max: 409ms
+Avg: 408ms
+Std_dev: 0.71ms
+Ran 100 full runs, each with 12 jobs successfully
+~~ End of execution ~~
+
+c)
+
+Testing custom algorithm on 12 job dataset
+~~ Start of execution ~~
+Which Algorithm? (enter 1 for circular, 2 for firstAvailable):  2
+Number of full runs: 100
+Use the 12 preset jobs (y or n): y
+All Jobs Complete!
+
+Min: 290ms
+Max: 294ms
+Avg: 292ms
+Std_dev: 1.30ms
+Ran 100 full runs, each with 12 jobs successfully
+~~ End of execution ~~
+
+Testing custom algorithm on 100 job random dataset
+~~ Start of execution ~~
+Which Algorithm? (enter 1 for circular, 2 for firstAvailable):  2
+Number of full runs: 100
+Use the 12 preset jobs (y or n): n
+All Jobs Complete!
+
+Min: 5460ms
+Max: 7530ms
+Avg: 6488ms
+Std_dev: 432.05ms
+Ran 100 full runs, each with 100 jobs successfully
+~~ End of execution ~~
+

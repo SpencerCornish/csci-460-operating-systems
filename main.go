@@ -50,8 +50,6 @@ func main() {
 	// Compute the number of processors to use
 	numProcessors := stdNo%3 + 2
 
-	fmt.Printf("We will be using %d processors running %d jobs per full run for this simulation\n", numProcessors, numGeneratedJobs)
-
 	// Call the helper function to get user input
 	algorithmChoice, runs, useCustomJobs := getUserInput()
 
@@ -115,7 +113,11 @@ func main() {
 
 	fmt.Printf("\nMin: %.2dms \nMax: %.2dms \nAvg: %.2dms \nStd_dev: %.2fms\n", minMs, maxMs, meanMs, stdDevMs)
 
-	fmt.Println("Done!")
+	if useCustomJobs {
+		fmt.Printf("Ran %d full runs, each with 12 jobs successfully\n", runs)
+	} else {
+		fmt.Printf("Ran %d full runs, each with %d jobs successfully\n", runs, numGeneratedJobs)
+	}
 }
 
 // Run the simulation with a first Available queue. All processors pick the next job off the stack
@@ -158,8 +160,6 @@ func runCircular(runResultChannel chan time.Duration, jobs []job, processors int
 	}
 	runDuration := time.Since(startSimTime)
 
-	fmt.Printf("Total Turnaround Time for this run: %dms\n", runDuration.Nanoseconds()/1000000)
-
 	runResultChannel <- runDuration
 }
 
@@ -194,8 +194,6 @@ func runFirstAvailable(runResultChannel chan time.Duration, jobs []job, processo
 		<-jobCompleteChannel
 	}
 	runDuration := time.Since(startSimTime)
-
-	fmt.Printf("Total Turnaround Time for this run: %dms\n", runDuration.Nanoseconds()/1000000)
 
 	runResultChannel <- runDuration
 }
