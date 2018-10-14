@@ -15,7 +15,7 @@ Mac: brew install go
 2: restart your terminal to get new path variables
 
 3: run the lab
-Both: go run path/to/lab/main.go
+Both: go run path/to/lab/cornish-1.go
 
 **************************************************************************/
 package main
