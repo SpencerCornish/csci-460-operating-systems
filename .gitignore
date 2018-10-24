@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/c,go
+# Created by https://www.gitignore.io/api/c,go,code
 
 ### C ###
 # Prerequisites
@@ -68,5 +68,11 @@ dkms.conf
 /vendor/
 /Godeps/
 
+### Code ###
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
+tsconfig.json
+jsconfig.json
 
-# End of https://www.gitignore.io/api/c,go
+# End of https://www.gitignore.io/api/c,go,code
