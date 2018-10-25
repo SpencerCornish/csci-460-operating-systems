@@ -231,13 +231,19 @@ void append_node(int id) {
     struct Node *iterNode = NULL;
     iterNode = (struct Node *)malloc(sizeof(struct Node));
     iterNode = head;
-    while (iterNode->next) {
-        iterNode = iterNode->next;
+    if (iterNode != NULL) {
+        while (iterNode->next) {
+            iterNode = iterNode->next;
+        }
     }
 
     // Construct a new node, and link it to the end of the list
     struct Node *addedNode = new_node(id, iterNode);
-    iterNode->next = addedNode;
+    if (iterNode != NULL) {
+        iterNode->next = addedNode;
+    } else {
+        head = addedNode;
+    }
 }
 
 // Create a new node, and set its prev node and ID
