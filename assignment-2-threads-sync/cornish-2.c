@@ -130,7 +130,7 @@ void *producer_1_entry(void *param) {
         }
     }
 
-    printf("%s[P2] Max execution reached, exiting...%s\n", ANSI_COLOR_GREEN, RESET);
+    printf("%s[P1] Max execution reached, exiting...%s\n", ANSI_COLOR_CYAN, RESET);
 
     return NULL;
 }

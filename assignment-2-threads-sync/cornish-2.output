@@ -1,0 +1,436 @@
+making the initial nodes
+producer thread number 1 started
+producer thread number 2 started
+Threads successfully created
+consumer thread number 2 started
+[P1] appending new node
+CURRENT LIST [13,35,10,31]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17,15]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17,15,49]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17,15,49,13]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17,15,49,13,41]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17,15,49,13,41,29]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17,15,49,13,41,29,31]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17,15,49,13,41,29,31,43]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17,15,49,13,consumer thread number 1 started
+41,29,31,43,1]
+[P1] appending new node
+CURRENT LIST [13,35,10,31,7,13,17,15,49,13,41,29,31,43,1,25]
+[C1]Popped head with ID 13
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25]
+[P2] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38]
+[P2] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48]
+[P2] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44]
+[P2] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7]
+[P2] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11]
+[P1] appending new node
+CURRENT LIST [35,10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29]
+[P1] list length reached, waiting...
+[P2] list length reached, waiting...
+[C1]Popped head with ID 35
+CURRENT LIST [10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29]
+[P1] appending new node
+CURRENT LIST [10,31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27]
+[P1] list length reached, waiting...
+[C2]Popped head with ID 10
+CURRENT LIST [31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27]
+[P2] appending new node
+CURRENT LIST [31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34]
+[P2] list length reached, waiting...
+[P1] appending new node
+CURRENT LIST [31,7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[P1] list length reached, waiting...
+[C1]Popped head with ID 31
+CURRENT LIST [7,13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 7
+CURRENT LIST [13,17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 13
+CURRENT LIST [17,15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 17
+CURRENT LIST [15,49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 15
+CURRENT LIST [49,13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 49
+CURRENT LIST [13,41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 13
+CURRENT LIST [41,29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 41
+CURRENT LIST [29,31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 29
+CURRENT LIST [31,43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 31
+CURRENT LIST [43,1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 43
+CURRENT LIST [1,25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 1
+CURRENT LIST [25,38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[C1]Popped head with ID 25
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41]
+[P2] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1]
+[P1] appending new node
+CURRENT LIST [38,48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15]
+[P1] list length reached, waiting...
+[P2] list length reached, waiting...
+[C2]Popped head with ID 38
+CURRENT LIST [48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15]
+[P2] appending new node
+CURRENT LIST [48,44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36]
+[P2] list length reached, waiting...
+[C2]Popped head with ID 48
+CURRENT LIST [44,40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36]
+[C2]Popped head with ID 44
+CURRENT LIST [40,39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36]
+[C2]Popped head with ID 40
+CURRENT LIST [39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36]
+[P1] appending new node
+CURRENT LIST [39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17]
+[P1] appending new node
+CURRENT LIST [39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17]
+[P1] appending new node
+CURRENT LIST [39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3]
+[P1] list length reached, waiting...
+[P2] appending new node
+CURRENT LIST [39,41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42]
+[C1]Popped head with ID 39
+CURRENT LIST [41,7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42]
+[C1]Popped head with ID 41
+CURRENT LIST [7,36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42]
+[C1]Popped head with ID 7
+CURRENT LIST [36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42]
+[P2] appending new node
+CURRENT LIST [36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16]
+[P2] appending new node
+CURRENT LIST [36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6]
+[P2] list length reached, waiting...
+[P1] appending new node
+CURRENT LIST [36,5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[P1] list length reached, waiting...
+[C2]Popped head with ID 36
+CURRENT LIST [5,25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[C1]Popped head with ID 5
+CURRENT LIST [25,5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[C1]Popped head with ID 25
+CURRENT LIST [5,7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[C1]Popped head with ID 5
+CURRENT LIST [7,35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[C1]Popped head with ID 7
+CURRENT LIST [35,11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[C1]Popped head with ID 35
+CURRENT LIST [11,29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[C1]Popped head with ID 11
+CURRENT LIST [29,27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[C1]Popped head with ID 29
+CURRENT LIST [27,34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[C1]Popped head with ID 27
+CURRENT LIST [34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3]
+[P1] appending new node
+CURRENT LIST [34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45]
+[P2] appending new node
+CURRENT LIST [34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24]
+[P1] appending new node
+CURRENT LIST [34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17]
+[P1] appending new node
+CURRENT LIST [34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3]
+[P1] appending new node
+CURRENT LIST [34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11]
+[P1] appending new node
+CURRENT LIST [34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1]
+[P1] appending new node
+CURRENT LIST [34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39]
+[P1] appending new node
+CURRENT LIST [34,19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33]
+[P1] list length reached, waiting...
+[P2] list length reached, waiting...
+[C2]Popped head with ID 34
+CURRENT LIST [19,41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33]
+[C1]Popped head with ID 19
+CURRENT LIST [41,10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33]
+[C1]Popped head with ID 41
+CURRENT LIST [10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33]
+[P1] appending new node
+CURRENT LIST [10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23]
+[P1] appending new node
+CURRENT LIST [10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31]
+[P1] appending new node
+CURRENT LIST [10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39]
+[P1] Max execution reached, exiting...
+[P2] appending new node
+CURRENT LIST [10,35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[P2] list length reached, waiting...
+[C2]Popped head with ID 10
+CURRENT LIST [35,11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 35
+CURRENT LIST [11,7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 11
+CURRENT LIST [7,47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 7
+CURRENT LIST [47,27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 47
+CURRENT LIST [27,25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 27
+CURRENT LIST [25,49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 25
+CURRENT LIST [49,35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 49
+CURRENT LIST [35,1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 35
+CURRENT LIST [1,15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 1
+CURRENT LIST [15,36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C1]Popped head with ID 15
+CURRENT LIST [36,17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[C2]Popped head with ID 36
+CURRENT LIST [17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24]
+[P2] appending new node
+CURRENT LIST [17,17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24,8]
+[C1]Popped head with ID 17
+CURRENT LIST [17,3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24,8]
+[C1]Popped head with ID 17
+CURRENT LIST [3,42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24,8]
+[C1]Popped head with ID 3
+CURRENT LIST [42,16,6,3,45,24,17,3,11,1,39,33,23,31,39,24,8]
+[C2]Popped head with ID 42
+CURRENT LIST [16,6,3,45,24,17,3,11,1,39,33,23,31,39,24,8]
+[C2]Popped head with ID 16
+CURRENT LIST [6,3,45,24,17,3,11,1,39,33,23,31,39,24,8]
+[C2]Popped head with ID 6
+CURRENT LIST [3,45,24,17,3,11,1,39,33,23,31,39,24,8]
+[C1]Popped head with ID 3
+CURRENT LIST [45,24,17,3,11,1,39,33,23,31,39,24,8]
+[P2] appending new node
+CURRENT LIST [45,24,17,3,11,1,39,33,23,31,39,24,8,24]
+[P2] appending new node
+CURRENT LIST [45,24,17,3,11,1,39,33,23,31,39,24,8,24,38]
+[C1]Popped head with ID 45
+CURRENT LIST [24,17,3,11,1,39,33,23,31,39,24,8,24,38]
+[C2]Popped head with ID 24
+CURRENT LIST [17,3,11,1,39,33,23,31,39,24,8,24,38]
+[P2] appending new node
+CURRENT LIST [17,3,11,1,39,33,23,31,39,24,8,24,38,36]
+[C1]Popped head with ID 17
+CURRENT LIST [3,11,1,39,33,23,31,39,24,8,24,38,36]
+[C1]Popped head with ID 3
+CURRENT LIST [11,1,39,33,23,31,39,24,8,24,38,36]
+[C1]Popped head with ID 11
+CURRENT LIST [1,39,33,23,31,39,24,8,24,38,36]
+[C1]Popped head with ID 1
+CURRENT LIST [39,33,23,31,39,24,8,24,38,36]
+[C1]Popped head with ID 39
+CURRENT LIST [33,23,31,39,24,8,24,38,36]
+[C1]Popped head with ID 33
+CURRENT LIST [23,31,39,24,8,24,38,36]
+[C1]Popped head with ID 23
+CURRENT LIST [31,39,24,8,24,38,36]
+[C1]Popped head with ID 31
+CURRENT LIST [39,24,8,24,38,36]
+[C1]Popped head with ID 39
+CURRENT LIST [24,8,24,38,36]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12]
+[P2] appending new node
+CURRENT LIST [24,8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34]
+[P2] list length reached, waiting...
+[C2]Popped head with ID 24
+CURRENT LIST [8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34]
+[P2] appending new node
+CURRENT LIST [8,24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[P2] list length reached, waiting...
+[C2]Popped head with ID 8
+CURRENT LIST [24,38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 24
+CURRENT LIST [38,36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 38
+CURRENT LIST [36,36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 36
+CURRENT LIST [36,40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 36
+CURRENT LIST [40,14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 40
+CURRENT LIST [14,12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 14
+CURRENT LIST [12,24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 12
+CURRENT LIST [24,18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 24
+CURRENT LIST [18,22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 18
+CURRENT LIST [22,40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 22
+CURRENT LIST [40,18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 40
+CURRENT LIST [18,12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 18
+CURRENT LIST [12,4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 12
+CURRENT LIST [4,44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 4
+CURRENT LIST [44,6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 44
+CURRENT LIST [6,34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 6
+CURRENT LIST [34,14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 34
+CURRENT LIST [14,28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 14
+CURRENT LIST [28,34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 28
+CURRENT LIST [34,10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 34
+CURRENT LIST [10,10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 10
+CURRENT LIST [10,44,4,20,16,12,34,40]
+[C2]Popped head with ID 10
+CURRENT LIST [44,4,20,16,12,34,40]
+[C2]Popped head with ID 44
+CURRENT LIST [4,20,16,12,34,40]
+[C2]Popped head with ID 4
+CURRENT LIST [20,16,12,34,40]
+[C2]Popped head with ID 20
+CURRENT LIST [16,12,34,40]
+[C2]Popped head with ID 16
+CURRENT LIST [12,34,40]
+[C2]Popped head with ID 12
+CURRENT LIST [34,40]
+[C2]Popped head with ID 34
+CURRENT LIST [40]
+[C2]Popped head with ID 40
+CURRENT LIST []
+[C2] list empty, waiting for new nodes...
+[C1] list empty, waiting for new nodes...
+[P2] appending new node
+CURRENT LIST [16]
+[P2] appending new node
+CURRENT LIST [16,28]
+[P2] appending new node
+CURRENT LIST [16,28,46]
+[C2]Popped head with ID 16
+CURRENT LIST [28,46]
+[C2]Popped head with ID 28
+CURRENT LIST [46]
+[C2]Popped head with ID 46
+CURRENT LIST []
+[C1] list empty, waiting for new nodes...
+[C2] list empty, waiting for new nodes...
+[P2] appending new node
+CURRENT LIST [14]
+[P2] appending new node
+CURRENT LIST [14,38]
+[P2] appending new node
+CURRENT LIST [14,38,38]
+[P2] appending new node
+CURRENT LIST [14,38,38,26]
+[P2] Max execution reached, exiting...
+[C2]Popped head with ID 14
+CURRENT LIST [38,38,26]
+[C2]Popped head with ID 38
+CURRENT LIST [38,26]
+[C2]Popped head with ID 38
+CURRENT LIST [26]
+[C2]Popped head with ID 26
+CURRENT LIST []
+[C2] list empty, waiting for new nodes...
+[C1] list empty, waiting for new nodes...
