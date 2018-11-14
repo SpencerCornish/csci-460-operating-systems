@@ -7,11 +7,11 @@ Dr. Binhai Zhu
 
 ## Summary
 
-This repo is a collection of the four programming assignments given in Operating Systems at Montana State University.
+This repo is a collection of the three programming assignments given in Operating Systems at Montana State University.
 
 ### Assignment 1
 
-*A processor management simulator, written fully in Go.*
+*A processor management simulator, written in Go.*
 
 ### Assignment 2
 
@@ -19,8 +19,4 @@ This repo is a collection of the four programming assignments given in Operating
 
 ### Assignment 3
 
-*Coming soon.*
-
-### Assignment 4
-
-*Coming soon.*
+*A priority inversion simulator, written in Go*
