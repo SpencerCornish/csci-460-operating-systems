@@ -1,0 +1,32 @@
+The value of time n is the time that the job started it's current processing cycle. So, if a job is interrupted,
+it prints its start time for that iteration. When the job eventually completes, n is when this processing period
+started, after the job had been interrupted.
+
+Preset list output:
+
+    time 1, t₃33t₃  [job UID: 0, arrival time: 1]
+    time 3, t₂NNNNNNNNNNt₂  [job UID: 1, arrival time: 3]
+    time 13, t₂NNNNNNNNNNt₂  [job UID: 4, arrival time: 10]
+    time 23, t₃333t₃  [job UID: 0, arrival time: 1]
+    time 24, t₁111t₁  [job UID: 3, arrival time: 8]
+    time 27, t₁111t₁  [job UID: 6, arrival time: 26]
+    time 30, t₃333t₃  [job UID: 2, arrival time: 6]
+    time 33, t₃333t₃  [job UID: 5, arrival time: 12]
+
+
+Random output:
+
+    time 1, t₁111t₁  [job UID: 9, arrival time: 1]
+    time 4, t₃333t₃  [job UID: 5, arrival time: 2]
+    time 7, t₃333t₃  [job UID: 2, arrival time: 4]
+    time 10, t₃33t₃  [job UID: 8, arrival time: 5]
+    time 12, t₂NNNNNNNNNNt₂  [job UID: 6, arrival time: 12]
+    time 22, t₂NNNNNNNNNNt₂  [job UID: 1, arrival time: 19]
+    time 32, t₂NNNNNNNNNNt₂  [job UID: 0, arrival time: 24]
+    time 42, t₃333t₃  [job UID: 8, arrival time: 5]
+    time 43, t₁111t₁  [job UID: 3, arrival time: 27]
+    time 46, t₃333t₃  [job UID: 4, arrival time: 11]
+    time 49, t₃333t₃  [job UID: 7, arrival time: 12]
+
+Pretty severe inversion can be seen for the random example with uids 8, 6, 1, 0 and 3
+
